@@ -4,7 +4,7 @@
 # convert to html and ipynb formats
 #
 
-fn='R1-Introduction'
+fn='R2-databasics'
 
 jupytext --to notebook $fn.Rmd
 mv $fn.ipynb ../notebooks/$fn.ipynb
